@@ -20,7 +20,11 @@
     "noEmit": true,
     "jsx": "react-jsx"
   },
+
   "include": [
     "src"
-  ]
+  ],
+  "paths": {
+    "react": [ "./node_modules/@types/react" ]
+  },
 }
